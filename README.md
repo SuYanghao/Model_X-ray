@@ -16,7 +16,7 @@ git clone https://github.com/SuYanghao/Model_X-ray.git
 cd Model_X-ray
 ```
 - **Get BackdoorBench-v2**\
-*Merge Teco into the [BackdoorBench-v2](https://github.com/SCLBD/BackdoorBench) codebase*
+*Merge Model X-ray into the [BackdoorBench-v2](https://github.com/SCLBD/BackdoorBench) codebase*
 ```shell 
 git clone -b v2 https://github.com/SCLBD/BackdoorBench.git
 rsync -av BackdoorBench-v2-merge/BackdoorBench/
