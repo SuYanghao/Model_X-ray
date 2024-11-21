@@ -19,7 +19,7 @@ cd Model_X-ray
 *Merge Teco into the [BackdoorBench-v2](https://github.com/SCLBD/BackdoorBench) codebase*
 ```shell 
 git clone -b v2 https://github.com/SCLBD/BackdoorBench.git
-rsync -av BackdoorBench-v2.0-merge/ BackdoorBench/
+rsync -av BackdoorBench-v2-merge/ BackdoorBench/
 cd BackdoorBench
 sh ./sh/install.sh
 mkdir record
