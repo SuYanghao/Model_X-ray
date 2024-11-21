@@ -18,10 +18,13 @@ cd Model_X-ray
 - **Get BackdoorBench-v2**\
 *Merge Model X-ray into the [BackdoorBench-v2](https://github.com/SCLBD/BackdoorBench) codebase*
 ```shell 
-git clone -b v2 https://github.com/SCLBD/BackdoorBench.git
+git clone https://github.com/SCLBD/BackdoorBench.git
 rsync -av BackdoorBench-v2-merge/BackdoorBench/
 cd BackdoorBench
+conda create -n backdoorbench python=3.8
+conda activate backdoorbench
 sh ./sh/install.sh
+sh ./sh/init_folders.sh
 mkdir record
 mkdir data
 mkdir data/cifar10
